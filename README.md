@@ -42,9 +42,11 @@ Follow the steps below to set up the project locally:
 
 ### 4. Configure Database
 Open .env file and update the following lines with your database credentials:
-`DB_DATABASE=your_database_name
+````
+DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password`
+DB_PASSWORD=your_database_password
+````
 
 ### 5. Run Migrations and Seeders
 `php artisan migrate`
@@ -57,7 +59,7 @@ Run Laravel backend:
 Run frontend assets using Vite:
 `npm run dev`
 
-### 7. Access the application in your web browser at http://localhost:8000/admin, with this credentials:
+### 7. Access the application in your web browser at `http://localhost:8000/admin`, with this credentials:
 ````
 Email:    test@example.com
 Password: password
