@@ -29,16 +29,24 @@ A task management application built with **Laravel** and **Livewire**. It allows
 Follow the steps below to set up the project locally:
 
 ### 1. Clone the Repository
-`git clone https://github.com/Keshav-LB/Task-Management.git`
-`cd Task_Management`
+````
+git clone https://github.com/Keshav-LB/Task-Management.git
+cd Task_Management
+````
 
 ### 2. Install Dependencies
-`composer install`
-`npm install`
+````
+composer install
+npm install
+````
 
 ### 3. Set Up Environment File
 `cp .env.example .env`
-`php artisan key:generate` from terminal.
+and run:
+````
+php artisan key:generate
+````
+from terminal.
 
 ### 4. Configure Database
 Open .env file and update the following lines with your database credentials:
@@ -49,15 +57,18 @@ DB_PASSWORD=your_database_password
 ````
 
 ### 5. Run Migrations and Seeders
-`php artisan migrate`
-`php artisan db:seed`   # Optional: adds fake data using Faker
+````
+php artisan migrate
+php artisan db:seed
+````
+`# Optional: adds fake data using Faker`
 
 ### 6. Start Development Servers
 Run Laravel backend:
-`php artisan serve`
+````php artisan serve````
 
 Run frontend assets using Vite:
-`npm run dev`
+````npm run dev````
 
 ### 7. Access the application in your web browser at `http://localhost:8000/admin`, with this credentials:
 ````
