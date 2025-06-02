@@ -1,3 +1,4 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 # 📋 Tasks Management App
 
 A task management application built with **Laravel** and **Livewire**. It allows you to create, assign, and track tasks within your organization.
@@ -28,34 +29,36 @@ A task management application built with **Laravel** and **Livewire**. It allows
 Follow the steps below to set up the project locally:
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+`git clone https://github.com/Keshav-LB/Task-Management.git`
+`cd Task_Management`
 
 ### 2. Install Dependencies
-composer install
-npm install
+`composer install`
+`npm install`
 
 ### 3. Set Up Environment File
-cp .env.example .env
-php artisan key:generate
+`cp .env.example .env`
+`php artisan key:generate` from terminal.
 
 ### 4. Configure Database
 Open .env file and update the following lines with your database credentials:
-DB_DATABASE=your_database_name
+`DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+DB_PASSWORD=your_database_password`
 
 ### 5. Run Migrations and Seeders
-php artisan migrate
-php artisan db:seed   # Optional: adds fake data using Faker
+`php artisan migrate`
+`php artisan db:seed`   # Optional: adds fake data using Faker
 
 ### 6. Start Development Servers
 Run Laravel backend:
-php artisan serve
+`php artisan serve`
 
 Run frontend assets using Vite:
-npm run dev
+`npm run dev`
 
 ### 7. Access the application in your web browser at http://localhost:8000/admin, with this credentials:
+````
 Email:    test@example.com
 Password: password
+````
